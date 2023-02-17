@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightsalmon;
+}
+
+.header {
+  padding:25px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightseagreen;
+  color:crimson;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 35px;
+  text-align: center;
+}
+
+.header nav {
+  padding-top: 10px;
+  margin-right: 15px;
+  float: right;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+.email {
+  margin-right: 15px;
+  padding: 20px;
+  float: center;
+  width: 25%;
+  height: 50%;
+}
+
+.footer {
+  padding: 25px;
+  clear: both;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.footer h2 {
+  font-size: 20px;
+}
