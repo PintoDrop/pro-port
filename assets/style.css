@@ -29,12 +29,29 @@ body {
   font-size: 15px;
 }
 
-.email {
+.michael img{
   margin-right: 15px;
   padding: 20px;
   float: center;
   width: 25%;
-  height: 50%;
+  height: 20%;
+  max-height: 10%;
+}
+
+.contact img {
+  max-height: 200px;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.contact {
+  text-align: left;
+  
+}
+
+.h3 {
+  padding-top:20px;
 }
 
 .footer {
@@ -42,6 +59,7 @@ body {
   clear: both;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
+  color: crimson;
 }
 .footer h2 {
   font-size: 20px;
