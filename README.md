@@ -2,7 +2,7 @@
 
 ## Description
 
-For this project I was tasked with creating a new portfolio webpage for myself. The project required that I submit a website that has a picture, some links to my work, a little about myself and contact information on how to reach me. 
+For this project I was tasked with creating a new portfolio webpage for myself. The project required that I submit a website that has a picture, some links to my work, a little about myself and contact information on how to reach me.
 
 ## Installation
 
@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-This gave me great practice for building my own webpages and learning to format them correctly so the user is able to look through some information about myself. 
+This gave me great practice for building my own webpages and learning to format them correctly so the user is able to look through some information about myself.
 
 ## Credits
 

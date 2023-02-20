@@ -12,14 +12,20 @@ body {
   padding:25px;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(1, 185, 185);
-  color:rgb(31, 35, 70);
+  color:rgb(148, 22, 27);
   text-align: center;
 }
 
 .header h1 {
   display: inline-block;
   font-size: 30px;
+  text-align: left;
+}
+
+.header h3 {
+  display:inline-block;
   text-align: center;
+  font-size: 30px;
 }
 
 .float-left {
@@ -42,6 +48,7 @@ body {
   margin-right: 25px;
   height: 200px;
   padding: 20px;
+  text-align: center;
 }
 
 .header nav {
@@ -59,6 +66,22 @@ body {
   height: 50px;
 }
 
+my-work {
+  display:grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  font: 120% system-ui;
+  text-align: right;
+  padding: 2rem 1rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(148, 22, 27);
+}
+a:hover {
+  font-weight:900;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -73,7 +96,7 @@ body {
   height: 300px;
   font-family:'Courier New', Courier, monospace;
   background-color: rgb(1, 185, 185);
-  color:rgb(31, 35, 70);
+  color:rgb(148, 22, 27);
    text-align: center;
   font-size: 25px;
 }
@@ -84,9 +107,13 @@ body {
   height: 300px;
   font-family:'Courier New', Courier, monospace;
   background-color: rgb(1, 185, 185);
-  color:rgb(31, 35, 70);
+  color:rgb(148, 22, 27);
   text-align: center;
   font-size: 30px;
+}
+
+my-work {
+  display: grid;
 }
 
 .contact {
@@ -95,9 +122,10 @@ body {
   height: 300px;
   font-family:'Courier New', Courier, monospace;
   background-color: rgb(1, 185, 185);
-  color:rgb(31, 35, 70);
+  color:rgb(148, 22, 27);
    text-align: center;
   font-size: 20px;
+  
 }
 
 .footer {
@@ -105,7 +133,7 @@ body {
   clear: both;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  color: rgb(240, 240, 243);
+  color: rgb(1, 185, 185);
 }
 
 @media screen and (max-width:500px) {
