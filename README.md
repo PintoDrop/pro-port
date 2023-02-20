@@ -2,7 +2,7 @@
 
 ## Description
 
-For this project I was tasked with creating a new portfolio webpage for myself. The project required that I submit a website that has a picture, some links to my work, a little about myself and contact information on how to reach me.
+For this project I was tasked with creating a new portfolio webpage for myself. The project required that I submit a website that has a picture, some links to my work, a little about myself and contact information on how to reach me. I also needed to make a nav bar with links that brought the user to the corresponding section of the webpage. I was able to link my work so far and then make it so when the cursor hovers over these links they became bolder and stood out so the user could more easily navigate my portfolio page.
 
 ## Installation
 
@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-This gave me great practice for building my own webpages and learning to format them correctly so the user is able to look through some information about myself.
+This gave me great practice for building my own webpages and learning to format them correctly so the user is able to look through some information about myself. This will allow me to build up a portfolio I can use in the future when looking for work so my previous works are easily accessible for anyone that may be interested.
 
 ## Credits
 
