@@ -32,6 +32,28 @@ body {
   background-color: rgb(136, 235, 136)
 }
 
+.float-left {
+  float: left;
+  margin-right: 25px;
+  height: 200px;
+  padding: 20px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+  height: 200px;
+  padding: 20px;
+}
+
+.float-center {
+  float: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 200px;
+  padding: 20px;
+}
+
 .contact {
   display: block;
   font-size: 13px;
@@ -54,6 +76,9 @@ body {
   transition: flex-basis 500ms linear;
 } 
 
+.nav {
+  
+}
 
 .center {
   display: block;
@@ -62,21 +87,37 @@ body {
   width: 30%;
 }
 
-.michael img{
-  margin-right: 15px;
-  padding: 20px;
-  float: center;
-  width: 25%;
-  height: 10%;
-  max-height: 15%;
-  border: 3px solid red;
+.about-me {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family:'Courier New', Courier, monospace;
+  background-color:rgb(7, 73, 58);
+  color:antiquewhite;
+   text-align: center;
+  font-size: 25px;
 }
 
-.contact img {
-  max-height: 200px;
-  padding: 30px;
+.my-work {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family:'Courier New', Courier, monospace;
+  background-color:rgb(88, 205, 178);
+  color:rgb(216, 26, 26);
   text-align: center;
-  
+  font-size: 25px;
+}
+
+.contact {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family:'Courier New', Courier, monospace;
+  background-color:rgb(88, 205, 178);
+  color:rgb(216, 26, 26);
+   text-align: center;
+  font-size: 25px;
 }
 
 .contact {
