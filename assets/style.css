@@ -26,6 +26,7 @@ body {
   display:inline-block;
   text-align: center;
   font-size: 30px;
+  padding: 20px;
 }
 
 .float-left {
@@ -53,6 +54,7 @@ body {
   padding: 20px;
   text-align: center;
 }
+
 
 .header nav {
   padding-top: 10px;
@@ -115,9 +117,7 @@ a:hover {
   font-size: 30px;
 }
 
-my-work {
-  display: grid;
-}
+
 
 .contact {
   margin-bottom: 25px;
@@ -133,9 +133,9 @@ my-work {
 
 .work-img {
   margin-bottom: 25px;
-  display:block;
+  display:grid;
   padding: 25px;
-  height: 300px;
+  height: 600px;
   font-family:'Courier New', Courier, monospace;
   background-color: rgb(1, 185, 185);
   color:rgb(148, 22, 27);
@@ -152,19 +152,25 @@ my-work {
   color: rgb(1, 185, 185);
 }
 
-@media screen and (max-width:500px) {
-  .header {
-    width:100%;
-    background: darkorchid;
-    color: green;
+@media screen and (max-width: 992px) {
+  .work-img {
+    width: 100%;
+  }
+  /* Change the header color */
+  header {
+    background: #772014;
   }
 }
 
-@media screen and (max-width:600px) {
-  .contact {
+@media screen and (max-width: 992px) {
+  .about-me {
     width: 100%;
-    background: white;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
+    display:block;
+    -ms-text-size-adjust: auto;
+    font-size: 22px;
+   
   }
 }
+
