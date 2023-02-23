@@ -49,3 +49,7 @@ GIVEN I need to sample a potential employee's previous work
 ## Website Link
 
 [Portfolio](https://pintodrop.github.io/pro-port/)
+
+## Website Screenshot
+
+![Screenshot](./assets/images/Screenshot.JPG)
